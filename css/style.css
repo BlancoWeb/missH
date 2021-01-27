@@ -353,9 +353,12 @@ html {
 
 .navbar .navbar__dark .menu__item a {
   color: #ddb372;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
-.navbar .navbar__dark .menu__item:hover, .navbar .navbar__dark .menu__item:active {
-  border-bottom: 3px solid #ddb372;
+.navbar .navbar__dark .menu__item a:hover, .navbar .navbar__dark .menu__item a:active {
+  color: #dfceb5;
 }
 /*# sourceMappingURL=style.css.map */

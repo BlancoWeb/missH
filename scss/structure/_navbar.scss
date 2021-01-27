@@ -50,11 +50,11 @@
         margin: 0 3rem;
         a {
           color: $color-bg;
-        }
-
-        &:hover,
-        &:active {
-          border-bottom: 3px solid $color-bg;
+          transition: all 0.4s ease;
+          &:hover,
+          &:active {
+            color: $color-bg-bright;
+          }
         }
       }
     }
