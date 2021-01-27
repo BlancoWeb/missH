@@ -1,0 +1,62 @@
+// NAVBAR
+
+.navbar {
+  width: 100%;
+  height: auto;
+  #{&}__clear {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12rem;
+    background: $color-white;
+    .logo {
+      @include flexCenter(column);
+      .learning {
+        font-size: 3rem;
+        font-weight: 900;
+        font-family: $font-extra;
+      }
+      .miss {
+        font-family: $font-extra;
+        font-size: 6rem;
+        margin-top: -2rem;
+        font-weight: 900;
+        letter-spacing: 0.2rem;
+      }
+    }
+  }
+  #{&}__dark {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.8rem;
+    background: $color-accent;
+    .menu {
+      @include flexCenter(column);
+      height: inherit;
+
+      &__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+        color: $color-bg;
+      }
+      &__item {
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 auto;
+        margin: 0 3rem;
+        a {
+          color: $color-bg;
+        }
+
+        &:hover,
+        &:active {
+          border-bottom: 3px solid $color-bg;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import "../structure/mixins";
+@import "../structure/variables";
+.collage {
+  height: auto;
+  width: 100%;
+  margin-top: 4rem;
+  @include flexCenter(row);
+  &__body {
+    &-header {
+      font-size: 6rem;
+      text-align: center;
+    }
+  }
+}
+
+// COLLAGE
+.collage {
+  width: 100%;
+  height: auto;
+
+  &__body {
+    @include flexCenter(column);
+
+    &-header {
+      font-family: $font-extra;
+      margin-top: 6rem;
+    }
+
+    &-img {
+      @include flexCenter(column);
+    }
+  }
+}
+
+// OUTLINE
+.outline {
+  @include flexCenter(row);
+  padding: 4rem;
+  &__img {
+    margin: 4rem;
+    img {
+      @include imgAtt;
+    }
+  }
+  &__text {
+    @include paragraph;
+    margin-left: 3rem;
+  }
+}
+
+// CARDS
+.cards {
+  @include flexCenter(row);
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 8rem 0 12rem 0;
+
+  &__card {
+    @include flexCenter(row);
+    @include imgAtt;
+    height: 30rem;
+    width: 26rem;
+    background: $color-bg;
+    border: 0.1px solid rgba($color: $color-dark, $alpha: 0.2);
+  }
+}

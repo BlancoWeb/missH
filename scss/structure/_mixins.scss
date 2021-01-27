@@ -1,0 +1,46 @@
+@mixin bodyImg {
+  border-radius: $border-pic--l;
+  box-shadow: $shadow;
+}
+
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin imgAtt {
+  border-radius: 8px;
+  box-shadow: 6px 6px 14px rgba($color: $color-dark, $alpha: 0.4);
+}
+
+@mixin paragraph {
+  max-width: 48rem;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+// MEDIA QUERIES
+@mixin respond($breakpoint) {
+  @if $breakpoint == ph {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    } //600px
+  }
+  @if $breakpoint == tp {
+    @media only screen and (max-width: 62.37em) {
+      @content;
+    } //950px
+  }
+  @if $breakpoint == dsk {
+    @media only screen and (max-width: 112.5em) {
+      @content;
+    } //1800px
+  }
+  @if $breakpoint == lrg {
+    @media only screen and (min-width: 112.51em) {
+      @content;
+    } //1800
+  }
+}
