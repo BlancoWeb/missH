@@ -110,8 +110,9 @@
 
 .outline__text {
   max-width: 48rem;
-  font-size: 2rem;
+  font-size: 2.1rem;
   text-align: justify;
+  line-height: 1.4;
   margin-left: 3rem;
 }
 
@@ -163,7 +164,7 @@
   -webkit-box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
           box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
   height: 30rem;
-  width: 26rem;
+  width: 24rem;
   background: #ddb372;
   border: 0.1px solid rgba(22, 17, 11, 0.2);
 }
