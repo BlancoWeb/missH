@@ -1,7 +1,6 @@
 .btn__main {
-  width: 45%;
-  padding: 0.6rem 1.2rem;
-  border-radius: 12px;
+  width: 12rem;
+  padding: 1rem 1.4rem;
   outline: none;
   border: none;
   background: $color-black;
@@ -17,6 +16,7 @@
   cursor: pointer;
   transition: all 0.35s linear;
   @include imgAtt;
+  border-radius: 14px;
   &:hover {
     color: $color-black;
     background: $color-bg-bright;

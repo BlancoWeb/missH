@@ -55,11 +55,12 @@
 // CARDS
 .cards {
   @include flexCenter(row);
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
   margin: 8rem 0 12rem 0;
 
   &__card {
+    margin: 0 5rem;
     @include flexCenter(row);
     @include imgAtt;
     height: 30rem;
@@ -69,6 +70,11 @@
     color: $color-black;
     text-align: center;
     font-weight: 700;
+    transition: all 0.35s linear;
+
+    &:hover {
+      transform: scale(1.2);
+    }
 
     &--header {
       font-size: 2rem;
