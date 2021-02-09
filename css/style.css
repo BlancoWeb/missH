@@ -109,11 +109,16 @@
 }
 
 .outline__text {
-  max-width: 48rem;
-  font-size: 2.1rem;
+  max-width: 60rem;
+  font-size: 1.8rem;
   text-align: justify;
   line-height: 1.4;
   margin-left: 3rem;
+}
+
+.signature {
+  font-family: "Dancing Script";
+  font-size: 2.6rem;
 }
 
 .cards {
@@ -167,6 +172,65 @@
   width: 24rem;
   background: #ddb372;
   border: 0.1px solid rgba(22, 17, 11, 0.2);
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+}
+
+.cards__card--header {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 0.2rem 0.8rem 0 0.8rem;
+}
+
+.cards__card--par {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 0.6rem 0.8rem;
+}
+
+.cards__card--icon {
+  width: 70px;
+  margin: 1.2rem 1.4rem 0 1.4rem;
+}
+
+.cards__card-card1 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.8)), to(rgba(73, 44, 1, 0.6))), url(../../images/card1.jpg);
+  background-image: -webkit-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card1.jpg);
+  background-image: -o-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card1.jpg);
+  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card1.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  border-radius: 8px;
+}
+
+.cards__card-card2 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.8)), to(rgba(73, 44, 1, 0.6))), url(../../images/card2.jpg);
+  background-image: -webkit-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card2.jpg);
+  background-image: -o-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card2.jpg);
+  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card2.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  border-radius: 8px;
+}
+
+.cards__card-card3 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.8)), to(rgba(73, 44, 1, 0.6))), url(../../images/card3.jpg);
+  background-image: -webkit-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card3.jpg);
+  background-image: -o-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card3.jpg);
+  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card3.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  border-radius: 8px;
 }
 
 * {
@@ -215,6 +279,51 @@ html {
   html {
     font-size: 75%;
   }
+}
+
+.btn__main {
+  width: 45%;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  background: #000;
+  color: #fbf7f0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Yusei Magic", sans-serif;
+  letter-spacing: 0.2rem;
+  position: relative;
+  bottom: 0;
+  margin-top: 0.4rem;
+  cursor: pointer;
+  -webkit-transition: all 0.35s linear;
+  -o-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+  border-radius: 8px;
+  -webkit-box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
+          box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
+}
+
+.btn__main:hover {
+  color: #000;
+  background: #dfceb5;
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+       -o-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6);
+          box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.btn__main:active {
+  -webkit-transform: scale(1.01);
+      -ms-transform: scale(1.01);
+       -o-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
 }
 
 .footer {

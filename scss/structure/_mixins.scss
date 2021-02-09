@@ -16,10 +16,16 @@
 }
 
 @mixin paragraph {
-  max-width: 48rem;
-  font-size: 2.1rem;
+  max-width: 60rem;
+  font-size: 1.8rem;
   text-align: justify;
   line-height: 1.4;
+}
+
+@mixin imgGrad() {
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
 }
 
 // MEDIA QUERIES

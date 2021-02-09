@@ -1,0 +1,30 @@
+.btn__main {
+  width: 45%;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  background: $color-black;
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: $font-primary;
+  letter-spacing: 0.2rem;
+  position: relative;
+  bottom: 0;
+  margin-top: 0.4rem;
+  cursor: pointer;
+  transition: all 0.35s linear;
+  @include imgAtt;
+  &:hover {
+    color: $color-black;
+    background: $color-bg-bright;
+    transform: scale(1.02);
+    box-shadow: 8px 8px 16px rgba($color-black, 0.6);
+  }
+  &:active {
+    transform: scale(1.01);
+    box-shadow: 4px 4px 6px rgba($color-black, 0.4);
+  }
+}
