@@ -1,4 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Bentham&family=Crafty+Girls&family=Dancing+Script:wght@400;500;600;700&family=Yusei+Magic&display=swap");
+.about {
+  width: 100%;
+  height: auto;
+}
+
+.about__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.about__body-text {
+  max-width: 60rem;
+  font-size: 1.8rem;
+  text-align: justify;
+  line-height: 1.4;
+  padding: 6rem;
+  max-width: 80%;
+}
+
+.about__body img {
+  border-radius: 8px;
+  -webkit-box-shadow: 8px 8px 12px black;
+          box-shadow: 8px 8px 12px black;
+}
+
 .collage {
   height: auto;
   width: 100%;
@@ -166,11 +208,11 @@
   border-radius: 8px;
   -webkit-box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
           box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
-  height: 30rem;
+  height: 32rem;
   width: 24rem;
   background: #ddb372;
   border: 0.1px solid rgba(22, 17, 11, 0.2);
-  color: #000;
+  color: #fbf7f0;
   text-align: center;
   font-weight: 700;
   -webkit-transition: all 0.35s linear;
@@ -205,10 +247,10 @@
 .cards__card-card1 {
   height: 100%;
   width: 100%;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.8)), to(rgba(73, 44, 1, 0.6))), url(../../images/card1.jpg);
-  background-image: -webkit-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card1.jpg);
-  background-image: -o-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card1.jpg);
-  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card1.jpg);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.3)), to(rgba(73, 44, 1, 0.2)));
+  background-image: -webkit-linear-gradient(left bottom, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
+  background-image: -o-linear-gradient(left bottom, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
+  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -218,10 +260,10 @@
 .cards__card-card2 {
   height: 100%;
   width: 100%;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.8)), to(rgba(73, 44, 1, 0.6))), url(../../images/card2.jpg);
-  background-image: -webkit-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card2.jpg);
-  background-image: -o-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card2.jpg);
-  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card2.jpg);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.3)), to(rgba(73, 44, 1, 0.2)));
+  background-image: -webkit-linear-gradient(left bottom, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
+  background-image: -o-linear-gradient(left bottom, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
+  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -231,10 +273,10 @@
 .cards__card-card3 {
   height: 100%;
   width: 100%;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.8)), to(rgba(73, 44, 1, 0.6))), url(../../images/card3.jpg);
-  background-image: -webkit-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card3.jpg);
-  background-image: -o-linear-gradient(left bottom, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card3.jpg);
-  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.8), rgba(73, 44, 1, 0.6)), url(../../images/card3.jpg);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.3)), to(rgba(73, 44, 1, 0.2)));
+  background-image: -webkit-linear-gradient(left bottom, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
+  background-image: -o-linear-gradient(left bottom, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
+  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -294,7 +336,7 @@ html {
   padding: 1rem 1.4rem;
   outline: none;
   border: none;
-  background: #000;
+  background: #23223b;
   color: #fbf7f0;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -347,25 +389,131 @@ html {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+  height: 36vh;
+  background: #23223b;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer__container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 100%;
-  height: 36vh;
-  background: #23223b;
+}
+
+.footer__container-logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #fbf7f0;
+  font-family: "Crafty Girls", cursive;
+  line-height: 1.2;
+  letter-spacing: 0.8;
+  margin: 3rem;
+}
+
+.footer__container-logo .learning {
+  font-size: 3rem;
+}
+
+.footer__container-logo .miss {
+  font-size: 6rem;
+}
+
+.footer__container-logo .social {
+  font-size: 3rem;
+  margin-right: 1rem;
+  margin: 3rem;
+  padding-right: 3rem;
+}
+
+.footer__container-links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  padding-left: 3rem;
 }
 
 .copyright {
-  margin-top: 22rem;
-  font-size: 1.1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1.3rem;
   color: #fbf7f0;
+  position: relative;
+  bottom: -4rem;
 }
 
 .copyright .copy {
   font-size: 2.2rem;
-  margin-bottom: -2rem;
 }
 
 .navbar {

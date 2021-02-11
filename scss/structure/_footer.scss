@@ -1,15 +1,54 @@
 .footer {
-  @include flexCenter(row);
+  @include flexCenter(column);
   width: 100%;
+  height: 100%;
   height: 36vh;
   background: $color-accent;
+  a {
+    color: white;
+  }
+  &__container {
+    width: 100%;
+    height: auto;
+    @include flexCenter(row);
+
+    &-logo {
+      @include flexCenter(row);
+      color: $color-white;
+      font-family: $font-extra;
+      line-height: 1.2;
+      letter-spacing: 0.8;
+      margin: 3rem;
+      .learning {
+        font-size: 3rem;
+      }
+      .miss {
+        font-size: 6rem;
+      }
+      .social {
+        font-size: 3rem;
+        margin-right: 1rem;
+        margin: 3rem;
+        padding-right: 3rem;
+      }
+    }
+
+    &-links {
+      @include flexCenter(column);
+      font-size: 2rem;
+      padding-left: 3rem;
+    }
+  }
 }
+
 .copyright {
-  margin-top: 22rem;
-  font-size: 1.1rem;
+  @include flexCenter(row);
+  font-size: 1.3rem;
   color: $color-white;
+  position: relative;
+  bottom: -4rem;
   .copy {
     font-size: 2.2rem;
-    margin-bottom: -2rem;
+    // margin-bottom: -2rem;
   }
 }

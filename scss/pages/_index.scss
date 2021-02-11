@@ -63,11 +63,11 @@
     margin: 0 5rem;
     @include flexCenter(row);
     @include imgAtt;
-    height: 30rem;
+    height: 32rem;
     width: 24rem;
     background: $color-bg;
     border: 0.1px solid rgba($color: $color-dark, $alpha: 0.2);
-    color: $color-black;
+    color: $color-white;
     text-align: center;
     font-weight: 700;
     transition: all 0.35s linear;
@@ -95,33 +95,30 @@
       height: 100%;
       width: 100%;
       background-image: linear-gradient(
-          to right top,
-          rgba($color-bg, 0.8),
-          rgba($color-bg--2, 0.6)
-        ),
-        url(../../images/card1.jpg);
+        to right top,
+        rgba($color-bg, 0.3),
+        rgba($color-bg--2, 0.2)
+      );
       @include imgGrad;
     }
     &-card2 {
       height: 100%;
       width: 100%;
       background-image: linear-gradient(
-          to right top,
-          rgba($color-bg, 0.8),
-          rgba($color-bg--2, 0.6)
-        ),
-        url(../../images/card2.jpg);
+        to right top,
+        rgba($color-bg, 0.3),
+        rgba($color-bg--2, 0.2)
+      );
       @include imgGrad;
     }
     &-card3 {
       height: 100%;
       width: 100%;
       background-image: linear-gradient(
-          to right top,
-          rgba($color-bg, 0.8),
-          rgba($color-bg--2, 0.6)
-        ),
-        url(../../images/card3.jpg);
+        to right top,
+        rgba($color-bg, 0.3),
+        rgba($color-bg--2, 0.2)
+      );
       @include imgGrad;
     }
   }
