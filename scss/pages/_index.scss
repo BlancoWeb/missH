@@ -31,27 +31,24 @@
     }
   }
 }
-
+.collage__body-header h1 {
+  font-size: 4rem;
+}
 // OUTLINE
 .outline {
   @include flexCenter(row);
   padding: 4rem;
-  &__img {
-    margin: 4rem;
-    img {
-      @include imgAtt;
-    }
-  }
+
   &__text {
     @include paragraph;
     margin-left: 3rem;
   }
-}
-.signature {
-  font-family: $font-tertiary;
-  font-size: 2.6rem;
-}
 
+  .signature {
+    font-family: $font-tertiary;
+    font-size: 2.6rem;
+  }
+}
 // CARDS
 .cards {
   @include flexCenter(row);
@@ -80,9 +77,10 @@
       font-size: 2rem;
       text-transform: uppercase;
       padding: 0.2rem 0.8rem 0 0.8rem;
+      min-height: 6.6rem;
     }
     &--par {
-      font-size: 1.1rem;
+      font-size: 1rem;
       text-transform: uppercase;
       padding: 0.6rem 0.8rem;
     }
@@ -90,7 +88,10 @@
       width: 70px;
       margin: 1.2rem 1.4rem 0 1.4rem;
     }
-
+    .btn__main {
+      position: relative;
+      bottom: -1.2rem;
+    }
     &-card1 {
       height: 100%;
       width: 100%;

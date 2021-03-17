@@ -11,14 +11,26 @@
 
     &-text {
       @include paragraph;
-
       padding: 6rem;
-      max-width: 80%;
-    }
+      max-width: 70%;
+      line-height: 1.6;
+      font-size: 1.6rem;
+      .about__header {
+        text-align: center;
+      }
+      .about__par-top {
+        display: flex;
 
-    img {
-      border-radius: 8px;
-      box-shadow: 8px 8px 12px black;
+        img {
+          position: relative;
+          top: 0rem;
+          width: 200px;
+          height: 300px;
+          margin: 3rem 2rem;
+          border-radius: 8px;
+          box-shadow: 8px 8px 12px black;
+        }
+      }
     }
   }
 }

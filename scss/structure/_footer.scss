@@ -6,6 +6,10 @@
   background: $color-accent;
   a {
     color: white;
+    transition: all 0.3s linear;
+    &:hover {
+      color: #ddb372;
+    }
   }
   &__container {
     width: 100%;
@@ -46,7 +50,7 @@
   font-size: 1.3rem;
   color: $color-white;
   position: relative;
-  bottom: -4rem;
+  bottom: -2rem;
   .copy {
     font-size: 2.2rem;
     // margin-bottom: -2rem;

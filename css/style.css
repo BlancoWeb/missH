@@ -32,10 +32,28 @@
   text-align: justify;
   line-height: 1.4;
   padding: 6rem;
-  max-width: 80%;
+  max-width: 70%;
+  line-height: 1.6;
+  font-size: 1.6rem;
 }
 
-.about__body img {
+.about__body-text .about__header {
+  text-align: center;
+}
+
+.about__body-text .about__par-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__body-text .about__par-top img {
+  position: relative;
+  top: 0rem;
+  width: 200px;
+  height: 300px;
+  margin: 3rem 2rem;
   border-radius: 8px;
   -webkit-box-shadow: 8px 8px 12px black;
           box-shadow: 8px 8px 12px black;
@@ -119,6 +137,10 @@
           flex-direction: column;
 }
 
+.collage__body-header h1 {
+  font-size: 4rem;
+}
+
 .outline {
   display: -webkit-box;
   display: -webkit-flex;
@@ -140,16 +162,6 @@
   padding: 4rem;
 }
 
-.outline__img {
-  margin: 4rem;
-}
-
-.outline__img img {
-  border-radius: 8px;
-  -webkit-box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
-          box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
-}
-
 .outline__text {
   max-width: 60rem;
   font-size: 1.8rem;
@@ -158,7 +170,7 @@
   margin-left: 3rem;
 }
 
-.signature {
+.outline .signature {
   font-family: "Dancing Script";
   font-size: 2.6rem;
 }
@@ -231,10 +243,11 @@
   font-size: 2rem;
   text-transform: uppercase;
   padding: 0.2rem 0.8rem 0 0.8rem;
+  min-height: 6.6rem;
 }
 
 .cards__card--par {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: uppercase;
   padding: 0.6rem 0.8rem;
 }
@@ -242,6 +255,11 @@
 .cards__card--icon {
   width: 70px;
   margin: 1.2rem 1.4rem 0 1.4rem;
+}
+
+.cards__card .btn__main {
+  position: relative;
+  bottom: -1.2rem;
 }
 
 .cards__card-card1 {
@@ -402,6 +420,13 @@ html {
 
 .footer a {
   color: white;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.footer a:hover {
+  color: #ddb372;
 }
 
 .footer__container {
@@ -509,7 +534,7 @@ html {
   font-size: 1.3rem;
   color: #fbf7f0;
   position: relative;
-  bottom: -4rem;
+  bottom: -2rem;
 }
 
 .copyright .copy {
