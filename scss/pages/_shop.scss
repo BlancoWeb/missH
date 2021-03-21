@@ -1,0 +1,14 @@
+@import "../structure/mixins";
+@import "../structure/variables";
+.shop {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: black;
+  &__body {
+    max-width: 80%;
+  }
+}
+.shop__header {
+  text-align: center;
+}

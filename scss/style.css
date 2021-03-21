@@ -1,0 +1,595 @@
+@import url("https://fonts.googleapis.com/css2?family=Bentham&family=Crafty+Girls&family=Dancing+Script:wght@400;500;600;700&family=Yusei+Magic&display=swap");
+.about {
+  width: 100%;
+  height: auto;
+}
+
+.about__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.about__body-text {
+  max-width: 60rem;
+  font-size: 1.8rem;
+  text-align: justify;
+  line-height: 1.4;
+  padding: 6rem;
+  max-width: 70%;
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+.about__body-text .about__header {
+  text-align: center;
+}
+
+.about__body-text .about__par-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__body-text .about__par-top img {
+  position: relative;
+  top: 0rem;
+  width: 200px;
+  height: 300px;
+  margin: 3rem 2rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 8px 8px 12px black;
+          box-shadow: 8px 8px 12px black;
+}
+
+.shop__header {
+  text-align: center;
+}
+
+.collage {
+  height: auto;
+  width: 100%;
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.collage__body-header {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.collage {
+  width: 100%;
+  height: auto;
+}
+
+.collage__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.collage__body-header {
+  font-family: "Crafty Girls", cursive;
+  margin-top: 6rem;
+}
+
+.collage__body-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.collage__body-header h1 {
+  font-size: 4rem;
+}
+
+.outline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 4rem;
+}
+
+.outline__text {
+  max-width: 60rem;
+  font-size: 1.8rem;
+  text-align: justify;
+  line-height: 1.4;
+  margin-left: 3rem;
+}
+
+.outline .signature {
+  font-family: "Dancing Script";
+  font-size: 2.6rem;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 8rem 0 12rem 0;
+}
+
+.cards__card {
+  margin: 0 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 8px;
+  -webkit-box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
+          box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
+  height: 32rem;
+  width: 24rem;
+  background: #ddb372;
+  border: 0.1px solid rgba(22, 17, 11, 0.2);
+  color: #fbf7f0;
+  text-align: center;
+  font-weight: 700;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+
+.cards__card:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.cards__card--header {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 0.2rem 0.8rem 0 0.8rem;
+  min-height: 6.6rem;
+}
+
+.cards__card--par {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.6rem 0.8rem;
+}
+
+.cards__card--icon {
+  width: 70px;
+  margin: 1.2rem 1.4rem 0 1.4rem;
+}
+
+.cards__card .btn__main {
+  position: relative;
+  bottom: -1.2rem;
+}
+
+.cards__card-card1 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.3)), to(rgba(73, 44, 1, 0.2)));
+  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.cards__card-card2 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.3)), to(rgba(73, 44, 1, 0.2)));
+  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.cards__card-card3 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(221, 179, 114, 0.3)), to(rgba(73, 44, 1, 0.2)));
+  background-image: linear-gradient(to right top, rgba(221, 179, 114, 0.3), rgba(73, 44, 1, 0.2));
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.shop {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: black;
+}
+
+.shop__body {
+  max-width: 80%;
+}
+
+.shop__header {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.accent {
+  color: #23223b;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #23223b;
+  background-color: #fbf7f0;
+  overflow: visible;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 112.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 62.37em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 34%;
+  }
+}
+
+@media only screen and (min-width: 112.51em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+.btn__main {
+  width: 12rem;
+  padding: 1rem 1.4rem;
+  outline: none;
+  border: none;
+  background: #23223b;
+  color: #fbf7f0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Yusei Magic", sans-serif;
+  letter-spacing: 0.2rem;
+  position: relative;
+  bottom: 0;
+  margin-top: 0.4rem;
+  cursor: pointer;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+  border-radius: 8px;
+  -webkit-box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
+          box-shadow: 6px 6px 14px rgba(22, 17, 11, 0.4);
+  border-radius: 14px;
+}
+
+.btn__main:hover {
+  color: #000;
+  background: #dfceb5;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6);
+          box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.btn__main:active {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+  height: 36vh;
+  background: #23223b;
+}
+
+.footer a {
+  color: white;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.footer a:hover {
+  color: #ddb372;
+}
+
+.footer__container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer__container-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #fbf7f0;
+  font-family: "Crafty Girls", cursive;
+  line-height: 1.2;
+  letter-spacing: 0.8;
+  margin: 3rem;
+}
+
+.footer__container-logo .learning {
+  font-size: 3rem;
+}
+
+.footer__container-logo .miss {
+  font-size: 6rem;
+}
+
+.footer__container-logo .social {
+  font-size: 3rem;
+  margin-right: 1rem;
+  margin: 3rem;
+  padding-right: 3rem;
+}
+
+.footer__container-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  padding-left: 3rem;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1.3rem;
+  color: #fbf7f0;
+  position: relative;
+  bottom: -2rem;
+}
+
+.copyright .copy {
+  font-size: 2.2rem;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+}
+
+.navbar .navbar__clear {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12rem;
+  background: #fbf7f0;
+}
+
+.navbar .navbar__clear .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar .navbar__clear .logo .learning {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Crafty Girls", cursive;
+}
+
+.navbar .navbar__clear .logo .miss {
+  font-family: "Crafty Girls", cursive;
+  font-size: 6rem;
+  margin-top: -2rem;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+}
+
+.navbar .navbar__dark {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3.8rem;
+  background: #23223b;
+}
+
+.navbar .navbar__dark .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: inherit;
+}
+
+.navbar .navbar__dark .menu__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  color: #ddb372;
+}
+
+.navbar .navbar__dark .menu__item {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 auto;
+  margin: 0 3rem;
+}
+
+.navbar .navbar__dark .menu__item a {
+  color: #ddb372;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.navbar .navbar__dark .menu__item a:hover, .navbar .navbar__dark .menu__item a:active {
+  color: #dfceb5;
+}
+/*# sourceMappingURL=style.css.map */
