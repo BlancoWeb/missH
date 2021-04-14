@@ -349,13 +349,13 @@ html {
 .img_2 {
   position: relative;
   top: 0.9rem;
-  width: 11rem;
+  width: 14rem;
   z-index: 2;
   -webkit-transition: all 0.75s ease-out;
   -o-transition: all 0.75s ease-out;
   transition: all 0.75s ease-out;
   margin: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .img_3 {
@@ -603,7 +603,7 @@ html {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: white;
   position: relative;
   bottom: -2rem;
@@ -611,6 +611,7 @@ html {
 
 .copyright .copy {
   font-size: 2.2rem;
+  margin-left: 1rem;
 }
 
 .navbar {
