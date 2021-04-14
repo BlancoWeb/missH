@@ -3,12 +3,13 @@
   width: 100%;
   height: 100%;
   height: 36vh;
-  background: $color-accent;
+  background: $color-dark;
+  text-transform: uppercase;
   a {
     color: white;
     transition: all 0.3s linear;
     &:hover {
-      color: #ddb372;
+      color: $accent;
     }
   }
   &__container {

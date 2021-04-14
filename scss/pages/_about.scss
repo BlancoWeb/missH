@@ -17,23 +17,25 @@
       font-size: 1.6rem;
       .about__header {
         text-align: center;
+        font-size: 4rem;
+        font-family: $font-extra;
       }
       .about__par-top {
         display: flex;
-
-        img {
-          position: relative;
-          top: 0rem;
-          width: 200px;
-          height: 300px;
-          margin: 3rem 2rem;
-          border-radius: 8px;
-          box-shadow: 8px 8px 12px black;
-        }
       }
     }
   }
 }
 .shop__header {
   text-align: center;
+}
+
+.about__img {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px rgba($color: #000000, $alpha: 0.6);
+  float: left;
 }

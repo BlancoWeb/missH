@@ -1,11 +1,13 @@
+@import "structure/variables";
+@import "structure/fonts";
+@import "structure/mixins";
+@import "structure/base";
+@import "structure/components";
+
 @import "pages/about";
 @import "pages/contact";
 @import "pages/index";
 @import "pages/shop";
 @import "pages/terms";
-@import "structure/base";
-@import "structure/components";
 @import "structure/footer";
-@import "structure/mixins";
 @import "structure/navbar";
-@import "structure/variables";
